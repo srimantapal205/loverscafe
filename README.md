@@ -1,4 +1,5 @@
-# loverscafe
+# lovers-cafe 
+# Using Vue 3 create Basic Restaurant Management App
 
 ## Project setup
 ```
