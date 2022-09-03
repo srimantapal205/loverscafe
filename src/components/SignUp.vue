@@ -47,12 +47,9 @@ export default {
             console.warn(result);
             if (result.status === 201) {
                 console.log("Sign up done");
-                localStorage.setItem("user-info", JSON.stringify(result.data));
+                localStorage.setItem('user-info', JSON.stringify(result.data));
                 this.$router.push({ name: "home" })
             }
-            this.name = "";
-            this.email = "";
-            this.password = "";
         }
     },
     mounted() {

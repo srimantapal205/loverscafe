@@ -48,8 +48,6 @@ export default {
                 localStorage.setItem("user-info", JSON.stringify(getResult.data[0]));
                 this.$router.push({ name: "home" })
             }
-            this.email = "";
-            this.password = "";
         }
     },
     mounted() {

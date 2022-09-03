@@ -1,6 +1,6 @@
 # lovers-cafe 
-# Using Vue 3 create Basic Restaurant Management App
-
+## Using Vue 3 create Basic Restaurant Management App
+### For run this application need to install JsonServer (https://www.npmjs.com/package/json-server)  and Run it 3000 port.
 ## Project setup
 ```
 npm install

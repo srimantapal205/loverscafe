@@ -10,8 +10,7 @@
           <nav class="nav-bar">
             <ul>
               <li><router-link to="/">Home</router-link> </li>
-              <li><router-link to="/add-restaurant"> Add Restaurant</router-link></li>
-              <li><router-link to="/update-restaurant">Update Restaurant</router-link></li>
+              <li><router-link to="/add_restaurant"> Add Restaurant</router-link></li>
 
             </ul>
           </nav>
@@ -41,7 +40,7 @@ export default {
   methods: {
     logOut() {
       localStorage.clear();
-      this.$router.push({ name: "signin" })
+      this.$router.push({ name: "SignIn" })
     }
   },
 }

@@ -9,21 +9,21 @@ const routes = [
   },
   {
     path: '/signup',
-    name: 'signup',
+    name: 'Signup',
     component: () => import(/* webpackChunkName: "signup" */ '../components/SignUp.vue')
   },
   {
     path: '/signin',
-    name: 'signin',
+    name: 'SignIn',
     component: () => import(/* webpackChunkName: "login" */ '../components/Login.vue')
   },
   {
-    path: '/add-restaurant',
+    path: '/add_restaurant',
     name: 'AddRestaurant',
     component: () => import(/* webpackChunkName: "addrestaurant" */ '../components/AddResto.vue')
   },
   {
-    path: '/update-restaurant',
+    path: '/update_restaurant/:id',
     name: 'UpdateRestaurant',
     component: () => import(/* webpackChunkName: "updaterestaurant" */ '../components/UpdateResto.vue')
   }

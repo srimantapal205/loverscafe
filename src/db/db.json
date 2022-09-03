@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "name": "Petar",
+      "email": "petar@test.com",
+      "password": "pass@456",
+      "id": 1
+    },
+    {
+      "email": "bruce@test.com",
+      "name": "Bruce",
+      "password": "b@123456",
+      "id": 3
+    },
+    {
+      "email": "tony@test.in",
+      "name": "Tony",
+      "password": "t@123456",
+      "id": 4
+    },
+    {
+      "email": "item@item.com",
+      "name": "itemUser",
+      "password": "item@1234",
+      "id": 5
+    },
+    {
+      "email": "sri@test.com",
+      "name": "Sri",
+      "password": "sri@123",
+      "id": 6
+    },
+    {
+      "email": "sam@test.com",
+      "name": "sam",
+      "password": "sam@123",
+      "id": 7
+    },
+    {
+      "email": "john@test.com",
+      "name": "John",
+      "password": "john@1234",
+      "id": 8
+    }
+  ],
+  "restaurants": [
+    {
+      "restaurantName": "Barger King--2",
+      "restaEmail": "bk@test.in",
+      "restConcat": "9674851230",
+      "address": "814 Grant St. Jacksonville",
+      "city": "NC",
+      "zipCode": "28540",
+      "id": 2
+    },
+    {
+      "restaurantName": "Barger King",
+      "restaEmail": "bk@test.com",
+      "restConcat": "7894561230",
+      "address": "814 Grant St. Jacksonville, NC ",
+      "city": "NC",
+      "zipCode": "28540",
+      "id": 3
+    },
+    {
+      "restaurantName": "Piza Hut",
+      "restaEmail": "ph@test.in",
+      "restConcat": "9638527410",
+      "address": "127 Boston Street Jamaica",
+      "city": "NY",
+      "zipCode": "11432",
+      "id": 4
+    },
+    {
+      "restaurantName": "Dominos",
+      "restaEmail": "dm@tsk.com",
+      "restConcat": "7539512580",
+      "address": "8949 Mountainview St. Massapequa",
+      "city": "NY",
+      "zipCode": "11758",
+      "id": 6
+    },
+    {
+      "restaurantName": "KFC",
+      "restaEmail": "kfc@kfc.com",
+      "restConcat": "9877533210",
+      "address": "7877 Hanover Ave. Brooklyn",
+      "city": "NY",
+      "zipCode": "11216",
+      "id": 7
+    }
+  ]
+}
